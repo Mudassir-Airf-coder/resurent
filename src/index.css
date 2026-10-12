@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  html, body {
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    overscroll-behavior: none;
+    background-color: #faf5ee;
+    color: #3a302a;
+    font-family: 'Manrope', sans-serif;
+  }
+  
+  .font-headline {
+    font-family: 'EB Garamond', serif;
+  }
+  
+  .font-body, .font-label {
+    font-family: 'Manrope', sans-serif;
+  }
+
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom, 0px);
+  }
+
+  .pt-safe {
+    padding-top: env(safe-area-inset-top, 0px);
+  }
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

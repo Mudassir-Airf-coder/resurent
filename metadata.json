@@ -1,0 +1,6 @@
+{
+  "name": "AURA BITES - Table-Side Digital Ordering & Kitchen POS",
+  "description": "Real-time table-side digital ordering POS system with interactive 3D culinary models, live kitchen order dispatch, table QR verification, and secure Stripe payment processing.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
